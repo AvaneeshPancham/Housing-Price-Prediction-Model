@@ -31,7 +31,7 @@ To predict housing prices based on multiple features like:
 
 ---
 
-## 📊 Data Preprocessing
+## Data Preprocessing
 
 - Null values and outliers are handled.
 - Dummy variable is created for location.
