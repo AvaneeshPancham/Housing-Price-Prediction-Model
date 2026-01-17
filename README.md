@@ -1,17 +1,17 @@
-# 🏠 Housing Price Prediction
+# Housing Price Prediction
 
 This repository contains a Jupyter Notebook that implements a machine learning pipeline to predict housing prices in Delhi using different regression models. The project walks through the complete workflow of data preprocessing, model training, evaluation, and deployment of a prediction function.
 
 ---
 
-## 📁 Files
+##  Files
 
 - `Housing Price Prediction.ipynb`: Main Jupyter notebook containing the data cleaning, visualization, model building (Linear Regression and Decision Tree), and price prediction logic.
 
 
-## 🧠 Project Summary
+##  Project Summary
 
-### 🎯 Objective
+###  Objective
 To predict housing prices based on multiple features like:
 - Area
 - Number of Bedrooms (BHK)
@@ -20,7 +20,7 @@ To predict housing prices based on multiple features like:
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - Python
 - Jupyter Notebook
@@ -39,14 +39,14 @@ To predict housing prices based on multiple features like:
 
 ---
 
-## 🔍 Models Implemented - Decision Tree Regressor had a higher R^2 than Linear Regression
+## Models Implemented - Decision Tree Regressor had a higher R^2 than Linear Regression
 
-### ✅ Linear Regression
+### Linear Regression
 - Fitted using `LinearRegression()` from Scikit-learn.
 - Log transformation of Price (Y variable) since the variable was not normally distributed (Rightly Skewed).
 - Implemented K-fold cross validation to check the validity of Linear Regression results.
 
-### 🌲 Decision Tree Regressor
+### Decision Tree Regressor
 - Implemented using `DecisionTreeRegressor()`.
 - A separate `predict_price()` function (same interface) was used with this model.
 - Offers better capture of non-linear relationships.
